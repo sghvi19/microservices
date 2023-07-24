@@ -1,6 +1,6 @@
-package com.example.web.exceptionhandler;
+package com.example.exceptionhandler;
 
-import com.example.web.controller.PersonController;
+import com.example.controller.PersonController;
 import dev.omedia.exception.PersonNotFoundException;
 import dev.omedia.exception.PersonalNoAlreadyExistsException;
 import org.springframework.http.HttpHeaders;

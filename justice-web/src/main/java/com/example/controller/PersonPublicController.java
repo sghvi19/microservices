@@ -1,8 +1,8 @@
-package com.example.web.controller;
+package com.example.controller;
 
 
 import dev.omedia.domain.Person;
-import com.example.persistence.service.PersonService;
+import com.example.service.PersonService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.Content;

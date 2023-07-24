@@ -1,4 +1,4 @@
-package com.example.persistence.repository;
+package com.example.repository;
 
 import dev.omedia.domain.Person;
 import org.springframework.data.repository.CrudRepository;

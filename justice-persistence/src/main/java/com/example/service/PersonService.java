@@ -1,6 +1,6 @@
-package com.example.persistence.service;
+package com.example.service;
 
-import com.example.persistence.repository.PersonRepository;
+import com.example.repository.PersonRepository;
 import dev.omedia.domain.Person;
 import dev.omedia.exception.PersonNotFoundException;
 import dev.omedia.exception.PersonalNoAlreadyExistsException;
