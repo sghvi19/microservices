@@ -7,15 +7,15 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@EnableJpaRepositories(basePackages = {"dev.omedia.repository"})
+@EnableJpaRepositories(basePackages = {"com.example.repository"})
 @EntityScan(basePackages = {"dev.omedia.domain"})
 @ComponentScan(basePackages = {
-        "dev.omedia.repository",
-        "dev.omedia.service",
+        "com.example.repository",
+        "com.example.service",
         "com.example.controller",
         "com.example.exceptionhandler",
-        "dev.omedia.config",
-        "dev.omedia.carandownerreceiver"
+        "com.example.config",
+        "com.example.carandownerreceiver"
 })
 public class Main {
     public static void main(String[] args) {

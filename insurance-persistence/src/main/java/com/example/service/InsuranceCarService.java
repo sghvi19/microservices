@@ -1,8 +1,6 @@
 package com.example.service;
 
-import com.example.domain.Insurance;
-import com.example.domain.InsuranceCar;
-import com.example.domain.InsuranceOwner;
+import com.example.domain.*;
 import com.example.exception.*;
 import com.example.carandownerreceiver.CarAndOwnerReceiverFacade;
 import com.example.domain.enums.FranchiseOrUnlimited;

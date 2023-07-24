@@ -1,6 +1,9 @@
 package com.example.domain;
 
 
+import com.example.enums.CarType;
+import com.example.enums.OdometerUnitType;
+import jakarta.validation.constraints.Min;
 import lombok.*;
 
 import java.time.LocalDate;

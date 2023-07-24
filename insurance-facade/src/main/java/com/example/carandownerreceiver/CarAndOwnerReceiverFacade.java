@@ -1,7 +1,6 @@
 package com.example.carandownerreceiver;
 
-import dev.omedia.domain.Car;
-import dev.omedia.domain.Owner;
+import com.example.domain.Car;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
